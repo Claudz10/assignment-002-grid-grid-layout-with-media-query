@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 3fr 2fr;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+#leftsidebar{
+  border: solid;
+  display: flex;  
+
+}
+main{
+    border: solid;
+}
+#rightsidebar{
+    border: solid;
+}
+#bottombar{
+    border: solid;
+}
+#sidebar{
+    border: solid;
+}
+@media(max-width:576px) {
+    
+}

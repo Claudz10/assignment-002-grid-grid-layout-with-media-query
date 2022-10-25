@@ -1,29 +1,42 @@
 .container{
     display: grid;
-    height: 100vh;
+    height:40vh;
     grid-template-columns:auto auto auto;
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: left center right;
     text-align: center;
+    padding: 10px;
 }
 h1{
     text-align: center;
 }
 #leftsidebar{
-  border: solid;
+  border: 1px solid;
   display: flex;  
-
 }
 main{
-    border: solid;
+    border: 1px solid;
 }
 #rightsidebar{
-    border: solid;
+    border: 1px solid;
 }
 #bottombar{
-    border: solid;
+    border: 1px solid;
 }
-#sidebar{
-    border: solid;
+#Politics{
+    background-color:burlywood;
+}
+#Technology{
+    background-color:aquamarine ;
+}
+#Locals{
+background-color:aqua ;
+}
+#Opinion{
+background-color: blue;
+}
+#Sports{
+background-color:rebeccapurple ;
 }
 @media(max-width:576px) {
     
